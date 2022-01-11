@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		550E901D278DD61C00330621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550E901C278DD61C00330621 /* AppDelegate.swift */; };
 		550E901F278DD61C00330621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550E901E278DD61C00330621 /* SceneDelegate.swift */; };
-		550E9021278DD61C00330621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550E9020278DD61C00330621 /* ViewController.swift */; };
 		550E9024278DD61C00330621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550E9022278DD61C00330621 /* Main.storyboard */; };
 		550E9026278DD61F00330621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550E9025278DD61F00330621 /* Assets.xcassets */; };
 		550E9029278DD61F00330621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550E9027278DD61F00330621 /* LaunchScreen.storyboard */; };
+		550E9032278DD77300330621 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550E9031278DD77300330621 /* NewsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		550E9019278DD61C00330621 /* News App MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News App MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		550E901C278DD61C00330621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		550E901E278DD61C00330621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		550E9020278DD61C00330621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		550E9023278DD61C00330621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		550E9025278DD61F00330621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550E9028278DD61F00330621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		550E902A278DD61F00330621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550E9031278DD77300330621 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		550E901B278DD61C00330621 /* News App MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				550E9030278DD75F00330621 /* Controllers */,
 				550E901C278DD61C00330621 /* AppDelegate.swift */,
 				550E901E278DD61C00330621 /* SceneDelegate.swift */,
-				550E9020278DD61C00330621 /* ViewController.swift */,
 				550E9022278DD61C00330621 /* Main.storyboard */,
 				550E9025278DD61F00330621 /* Assets.xcassets */,
 				550E9027278DD61F00330621 /* LaunchScreen.storyboard */,
 				550E902A278DD61F00330621 /* Info.plist */,
 			);
 			path = "News App MVVM";
+			sourceTree = "<group>";
+		};
+		550E9030278DD75F00330621 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				550E9031278DD77300330621 /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550E9021278DD61C00330621 /* ViewController.swift in Sources */,
 				550E901D278DD61C00330621 /* AppDelegate.swift in Sources */,
+				550E9032278DD77300330621 /* NewsListTableViewController.swift in Sources */,
 				550E901F278DD61C00330621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
